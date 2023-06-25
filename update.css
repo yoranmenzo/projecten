@@ -1,0 +1,37 @@
+h1{
+    font-size: 500%;
+    color: #f21c1c;
+    background-color: #000000;
+}
+a:link {
+    color: #f21c1c;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #f21c1c7b;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #f21c1c;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+body{
+    background-color: #000000;
+    color: #f21c1c;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+output{
+  color: #f21c1c;
+}
