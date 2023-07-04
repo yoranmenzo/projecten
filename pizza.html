@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizza</title>
+    <link rel="stylesheet" href="pizza.css">
+</head>
+<body>
+    <header class="topnav">
+        <a href="../homepage/homepage.html">homepage</a>
+        <div class="dropdown">
+          <button class="dropbtn">Projects 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="../pizza/pizza.html">pizza</a>
+            <a href="../leeftijd/leeftijd.html">leeftijd</a>
+            <a href="../leeftijdsgrens/leeftijdsgrens.html">leeftijdsgrens</a>
+            <a href="../verjaardag/verjaardag.html">verjaardag</a>
+          </div>
+        </div> 
+       <div class="dropdown">
+        <button class="dropbtn">About me
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../about.me/why/why.html">waarom deze website?</a>
+          <a href="../about.me/about/about.html">wie ben ik?</a>
+        </div>
+       </div>
+        <a href="../contact/contact.html">Contact</a>
+      </header>
+      <table>
+          <tr>
+            <td>Pizza Salami</td>
+            <td><input class="aantal" type="number" max="50" min="0"></td>
+          </tr>
+          <td></td>
+      </table>
+      <input type="submit" value="bestelling verzenden" id="klaar">
+      <script>
+let num = aantal
+if (num > 50) {
+  alert("The number is higher than 50.");
+}
+
+      </script>
+</body>
+</html>
